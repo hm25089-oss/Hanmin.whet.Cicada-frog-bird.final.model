@@ -1,1 +1,11 @@
-# Hanmin.whet.Cicada-frog-bird.final.model
+# 한민고 생태음향 종 동정
+
+Streamlit 진입 파일: app.py
+
+학습 완료 모델 포함. 19개 클래스 독립 점수 표시. 재학습 불필요.
+
+로컬 실행: `python -m pip install -r requirements.txt` 다음 `python -m streamlit run app.py`
+
+점수는 정답 확률이 아닙니다. 합계 100% 아님. 학습 자료와 음악에서의 반응은 새로운 현장음 성능을 보장하지 않습니다. 구간 평균과 순간 최고 점수를 함께 확인하세요.
+
+공개 저장소에 올리면 모델과 코드가 공개됩니다. 학습 음원은 포함하지 않습니다.
